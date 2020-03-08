@@ -379,6 +379,62 @@ const en = {
           'Files/Images columns must be the URLs of the files separated by space.',
       },
     },
+    quiz: {
+      name: 'quiz',
+      label: 'Quiz',
+      menu: 'Quiz',
+      exporterFileName: 'quiz_export',
+      list: {
+        menu: 'Quiz',
+        title: 'Quiz',
+      },
+      create: {
+        success: 'Quiz saved successfully',
+      },
+      update: {
+        success: 'Quiz saved successfully',
+      },
+      destroy: {
+        success: 'Quiz deleted successfully',
+      },
+      destroyAll: {
+        success: 'Quiz(s) deleted successfully',
+      },
+      edit: {
+        title: 'Edit Quiz',
+      },
+      fields: {
+        id: 'Id',
+        'url': 'Url',
+        'quizLengthRange': 'quizLength',
+        'quizLength': 'quizLength',
+        'name': 'Evaluation Criteria Field',
+        'operator': 'Evaluation Operator',
+        'requiredWatchTime': 'Required Watch Time',
+        createdAt: 'Created at',
+        updatedAt: 'Updated at',
+        createdAtRange: 'Created at',
+      },
+      enumerators: {
+        evaluationCriteria: {
+          'GREATERTHAN': 'GREATER THAN (>)',
+          'LESSTHAN': 'LESS THAN (<)',
+          'EQUALS': 'EQUALS (==)',
+        },
+      },
+      new: {
+        title: 'New Quiz',
+      },
+      view: {
+        title: 'View Quiz',
+      },
+      importer: {
+        title: 'Import Quiz',
+        fileName: 'quiz_import_template',
+        hint:
+          'Files/Images columns must be the URLs of the files separated by space.',
+      },
+    },
 
     document: {
       name: 'document',

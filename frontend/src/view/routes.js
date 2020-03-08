@@ -314,7 +314,22 @@ const privateRoutes = [
     permissionRequired: permissions.videoRead,
     exact: true,
   },
-
+  {
+    path: '/quiz',
+    loader: () => import('view/quiz/list/QuizListPage'),
+    permissionRequired: permissions.quizRead,
+    exact: true,
+    icon: 'right',
+    label: i18n('entities.quiz.menu'),
+    menu: true,
+  },
+  {
+    path: '/quiz/new',
+    loader: () => import('view/quiz/form/QuizFormPage'),
+    menu: false,
+    permissionRequired: permissions.audioCreate,
+    exact: true,
+  },
   {
     path: '/document',
     loader: () => import('view/document/list/DocumentListPage'),
